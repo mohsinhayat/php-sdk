@@ -211,8 +211,8 @@ abstract class BaseFacebook
    * @param array $config The application configuration
    */
   public function __construct($config) {
-    $this->setAppId($config['appId']);
-    $this->setAppSecret($config['secret']);
+    $this->setAppId($config['117666428361132']);
+    $this->setAppSecret($config['edb0bb9aa7bebab69b4f9f25609dc427']);
     if (isset($config['fileUpload'])) {
       $this->setFileUploadSupport($config['fileUpload']);
     }
@@ -262,7 +262,7 @@ abstract class BaseFacebook
    * @return BaseFacebook
    */
   public function setAppSecret($appSecret) {
-    $this->appSecret = $appSecret;
+    $this->edb0bb9aa7bebab69b4f9f25609dc427 = $appSecret;
     return $this;
   }
 
